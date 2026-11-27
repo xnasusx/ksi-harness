@@ -1,18 +1,18 @@
 {
   "schema": "ksi-harness/evidence-manifest/1",
-  "generated_at": "2026-11-26T13:54:34.461Z",
+  "generated_at": "2026-11-27T13:52:05.292Z",
   "run_uri": null,
   "locker": ".locker/evidence",
-  "bundle_count": 32,
+  "bundle_count": 36,
   "unreadable": [],
   "tampered": [],
   "checks": [
     {
       "check_id": "github.change.branch-protection",
-      "runs": 8,
+      "runs": 9,
       "first_collected_at": "2026-11-19T13:06:54.130Z",
-      "last_collected_at": "2026-11-26T13:54:24.199Z",
-      "chain_head_sha256": "cb314fe7def78fad04ac56ebe5c0178dd21dc8834acf88f1be0749e5ee7b09f7",
+      "last_collected_at": "2026-11-27T13:51:54.441Z",
+      "chain_head_sha256": "27ef4eaa82e379bd6e559add6e7cfe2c9bcfe50679e4e327c8f508c619535c7f",
       "chain_ok": true,
       "bundles": [
         {
@@ -46,15 +46,19 @@
         {
           "collected_at": "2026-11-26T13:54:24.199Z",
           "content_sha256": "cb314fe7def78fad04ac56ebe5c0178dd21dc8834acf88f1be0749e5ee7b09f7"
+        },
+        {
+          "collected_at": "2026-11-27T13:51:54.441Z",
+          "content_sha256": "27ef4eaa82e379bd6e559add6e7cfe2c9bcfe50679e4e327c8f508c619535c7f"
         }
       ]
     },
     {
       "check_id": "github.change.pr-review",
-      "runs": 8,
+      "runs": 9,
       "first_collected_at": "2026-11-19T13:06:54.130Z",
-      "last_collected_at": "2026-11-26T13:54:24.199Z",
-      "chain_head_sha256": "1ae238f28fc7fc30c650b4027d926792793c8c239eafd9a84dfaffc8eb8c2769",
+      "last_collected_at": "2026-11-27T13:51:54.441Z",
+      "chain_head_sha256": "eb4247815dd3d532544dfcbb7c125adc4883de01a38a71df2ab5ada21dbf3e96",
       "chain_ok": true,
       "bundles": [
         {
@@ -88,15 +92,19 @@
         {
           "collected_at": "2026-11-26T13:54:24.199Z",
           "content_sha256": "1ae238f28fc7fc30c650b4027d926792793c8c239eafd9a84dfaffc8eb8c2769"
+        },
+        {
+          "collected_at": "2026-11-27T13:51:54.441Z",
+          "content_sha256": "eb4247815dd3d532544dfcbb7c125adc4883de01a38a71df2ab5ada21dbf3e96"
         }
       ]
     },
     {
       "check_id": "github.supply-chain.dependency-alerts",
-      "runs": 8,
+      "runs": 9,
       "first_collected_at": "2026-11-19T13:06:54.130Z",
-      "last_collected_at": "2026-11-26T13:54:24.199Z",
-      "chain_head_sha256": "389a8a80d0973e5f8ff61fca50dfaf55bb98527524df405ca65b80622a44b736",
+      "last_collected_at": "2026-11-27T13:51:54.441Z",
+      "chain_head_sha256": "ecb7d2d5ec34ce24f7e55d60331de0376fc931a07b8cdde0aa23f06ff6c439a6",
       "chain_ok": true,
       "bundles": [
         {
@@ -130,15 +138,19 @@
         {
           "collected_at": "2026-11-26T13:54:24.199Z",
           "content_sha256": "389a8a80d0973e5f8ff61fca50dfaf55bb98527524df405ca65b80622a44b736"
+        },
+        {
+          "collected_at": "2026-11-27T13:51:54.441Z",
+          "content_sha256": "ecb7d2d5ec34ce24f7e55d60331de0376fc931a07b8cdde0aa23f06ff6c439a6"
         }
       ]
     },
     {
       "check_id": "github.supply-chain.workflow-pinning",
-      "runs": 8,
+      "runs": 9,
       "first_collected_at": "2026-11-19T13:06:54.130Z",
-      "last_collected_at": "2026-11-26T13:54:24.199Z",
-      "chain_head_sha256": "37fb31db59b20c4131df1bf5732b488c28c952fe3ed4ccaf6433ca22165ecfe4",
+      "last_collected_at": "2026-11-27T13:51:54.441Z",
+      "chain_head_sha256": "14a4c099e398914953e00ce1b6b6074791c8647ff8065ea56568a405d7837741",
       "chain_ok": true,
       "bundles": [
         {
@@ -172,9 +184,13 @@
         {
           "collected_at": "2026-11-26T13:54:24.199Z",
           "content_sha256": "37fb31db59b20c4131df1bf5732b488c28c952fe3ed4ccaf6433ca22165ecfe4"
+        },
+        {
+          "collected_at": "2026-11-27T13:51:54.441Z",
+          "content_sha256": "14a4c099e398914953e00ce1b6b6074791c8647ff8065ea56568a405d7837741"
         }
       ]
     }
   ],
-  "root_sha256": "7d330e25346a95cc384919b8545b61913315e1fd3691984d5916e6d4538ce5f7"
+  "root_sha256": "33611bffc45ef2dabaedf26cb514f7ed5743f0528ed0d4ae2a9fcd473d77e5c4"
 }
