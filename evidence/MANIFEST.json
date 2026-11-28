@@ -1,18 +1,18 @@
 {
   "schema": "ksi-harness/evidence-manifest/1",
-  "generated_at": "2026-11-27T13:52:05.292Z",
+  "generated_at": "2026-11-28T12:59:53.479Z",
   "run_uri": null,
   "locker": ".locker/evidence",
-  "bundle_count": 36,
+  "bundle_count": 40,
   "unreadable": [],
   "tampered": [],
   "checks": [
     {
       "check_id": "github.change.branch-protection",
-      "runs": 9,
+      "runs": 10,
       "first_collected_at": "2026-11-19T13:06:54.130Z",
-      "last_collected_at": "2026-11-27T13:51:54.441Z",
-      "chain_head_sha256": "27ef4eaa82e379bd6e559add6e7cfe2c9bcfe50679e4e327c8f508c619535c7f",
+      "last_collected_at": "2026-11-28T12:59:41.856Z",
+      "chain_head_sha256": "b358acae7b9ffeba8d9fcf915c9b7af3de4443a5f74fc8e73128fe7e969e2657",
       "chain_ok": true,
       "bundles": [
         {
@@ -50,15 +50,19 @@
         {
           "collected_at": "2026-11-27T13:51:54.441Z",
           "content_sha256": "27ef4eaa82e379bd6e559add6e7cfe2c9bcfe50679e4e327c8f508c619535c7f"
+        },
+        {
+          "collected_at": "2026-11-28T12:59:41.856Z",
+          "content_sha256": "b358acae7b9ffeba8d9fcf915c9b7af3de4443a5f74fc8e73128fe7e969e2657"
         }
       ]
     },
     {
       "check_id": "github.change.pr-review",
-      "runs": 9,
+      "runs": 10,
       "first_collected_at": "2026-11-19T13:06:54.130Z",
-      "last_collected_at": "2026-11-27T13:51:54.441Z",
-      "chain_head_sha256": "eb4247815dd3d532544dfcbb7c125adc4883de01a38a71df2ab5ada21dbf3e96",
+      "last_collected_at": "2026-11-28T12:59:41.856Z",
+      "chain_head_sha256": "de4180be2fcde384ad86fed8f732c1fbbafd74f10f9d31c4a30e947bee513f5a",
       "chain_ok": true,
       "bundles": [
         {
@@ -96,15 +100,19 @@
         {
           "collected_at": "2026-11-27T13:51:54.441Z",
           "content_sha256": "eb4247815dd3d532544dfcbb7c125adc4883de01a38a71df2ab5ada21dbf3e96"
+        },
+        {
+          "collected_at": "2026-11-28T12:59:41.856Z",
+          "content_sha256": "de4180be2fcde384ad86fed8f732c1fbbafd74f10f9d31c4a30e947bee513f5a"
         }
       ]
     },
     {
       "check_id": "github.supply-chain.dependency-alerts",
-      "runs": 9,
+      "runs": 10,
       "first_collected_at": "2026-11-19T13:06:54.130Z",
-      "last_collected_at": "2026-11-27T13:51:54.441Z",
-      "chain_head_sha256": "ecb7d2d5ec34ce24f7e55d60331de0376fc931a07b8cdde0aa23f06ff6c439a6",
+      "last_collected_at": "2026-11-28T12:59:41.856Z",
+      "chain_head_sha256": "f6f1851365062a7fd03c0d68589caa2d9ea0117f8849197ce3c2f15948792547",
       "chain_ok": true,
       "bundles": [
         {
@@ -142,15 +150,19 @@
         {
           "collected_at": "2026-11-27T13:51:54.441Z",
           "content_sha256": "ecb7d2d5ec34ce24f7e55d60331de0376fc931a07b8cdde0aa23f06ff6c439a6"
+        },
+        {
+          "collected_at": "2026-11-28T12:59:41.856Z",
+          "content_sha256": "f6f1851365062a7fd03c0d68589caa2d9ea0117f8849197ce3c2f15948792547"
         }
       ]
     },
     {
       "check_id": "github.supply-chain.workflow-pinning",
-      "runs": 9,
+      "runs": 10,
       "first_collected_at": "2026-11-19T13:06:54.130Z",
-      "last_collected_at": "2026-11-27T13:51:54.441Z",
-      "chain_head_sha256": "14a4c099e398914953e00ce1b6b6074791c8647ff8065ea56568a405d7837741",
+      "last_collected_at": "2026-11-28T12:59:41.856Z",
+      "chain_head_sha256": "05b39b95f68659457a52392a0f77b92849284609eed7aee89d48b40d8a23c075",
       "chain_ok": true,
       "bundles": [
         {
@@ -188,9 +200,13 @@
         {
           "collected_at": "2026-11-27T13:51:54.441Z",
           "content_sha256": "14a4c099e398914953e00ce1b6b6074791c8647ff8065ea56568a405d7837741"
+        },
+        {
+          "collected_at": "2026-11-28T12:59:41.856Z",
+          "content_sha256": "05b39b95f68659457a52392a0f77b92849284609eed7aee89d48b40d8a23c075"
         }
       ]
     }
   ],
-  "root_sha256": "33611bffc45ef2dabaedf26cb514f7ed5743f0528ed0d4ae2a9fcd473d77e5c4"
+  "root_sha256": "e9d693594133a8a49a36195c1fba3b37c6428395a0aaaf075c35a2d1f8be01d6"
 }
